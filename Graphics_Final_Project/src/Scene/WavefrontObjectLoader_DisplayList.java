@@ -1,9 +1,3 @@
-/******
- * Student name: Doreen Vaserman
- * Student ID: 308223627
- * Student name: Nadav Spitzer
- * Student ID: 302228275
- */
 package Scene;
 
 /**
@@ -103,7 +97,6 @@ public class WavefrontObjectLoader_DisplayList {
 		}
 	}
 
-	// function wrote by ELad and Shirly
 	// set the max and min coordinates for the collision
 	private void setMaxMin(float[] cord) {
 		for (int i = 0; i < 3; i++) {
@@ -116,13 +109,11 @@ public class WavefrontObjectLoader_DisplayList {
 		}
 	}
 
-	// function wrote by ELad and Shirly
 	//returns max array vertexes
 	public float[] getMaxCord() {
 		return this.maxCord;
 	}
 	
-	// function wrote by ELad and Shirly
 	//returns min array vertexes
 	public float[] getMinCord() {
 		return this.minCord;
